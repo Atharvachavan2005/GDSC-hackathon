@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 55" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14B8A6"/>
+      <stop offset="100%" style="stop-color:#0D9488"/>
+    </linearGradient>
+    <linearGradient id="pinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F97316"/>
+      <stop offset="100%" style="stop-color:#EA580C"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main Shield -->
+  <path d="M25 0C11.2 0 0 11.2 0 25c0 13.8 25 30 25 30s25-16.2 25-30C50 11.2 38.8 0 25 0z" fill="url(#shieldGrad)"/>
+  
+  <!-- Inner shield highlight -->
+  <path d="M25 4C13.4 4 4 13.4 4 25c0 11.6 21 26 21 26s21-14.4 21-26C46 13.4 36.6 4 25 4z" fill="white" fill-opacity="0.15"/>
+  
+  <!-- Location pin inside shield -->
+  <circle cx="25" cy="22" r="8" fill="white"/>
+  <circle cx="25" cy="22" r="4" fill="url(#shieldGrad)"/>
+  <path d="M25 30 L21 24 L29 24 Z" fill="white"/>
+  
+  <!-- Checkmark -->
+  <path d="M20 22 L24 26 L32 16" stroke="url(#pinGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
